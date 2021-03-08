@@ -32,7 +32,7 @@ color: white;
 /*Adding a background image*/
 .bg-img {
 /* The image used */
-background-image: url("banner.jpg");
+background-image: url("images/banner.jpg");
 min-height: 380px;
 
 /* Centering and scaling the image */
