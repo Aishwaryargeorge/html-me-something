@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+/* Black background color of the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style of the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Changeing the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Adding a color to the active/current link */
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+/*Adding a background image*/
+.bg-img {
+/* The image used */
+background-image: url("banner.jpg");
+min-height: 380px;
+
+/* Centering and scaling the image */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Creating two equal columns that floats next to each other */
+.column {
+float: left;
+padding: 10px;
+height: 500px; 
+padding-left: 30px;
+padding-right: 30px;
+background-color:#ddd;
+}
+
+/*Left part of the column*/
+.left {
+width: 50%;
+display: flex;
+align-items: center;
+text-align: justify;
+}
+
+/*Right part of the column*/
+.right {
+width: 50%;
+display: flex;
+align-items: center;
+text-align: justify;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/*Introduction*/
+#intro{
+font-size: 20px;
+text-align:justify;
+}
+main{
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 50px;
+margin-left: 50px;
+}
+article{
+padding-left: 30px;
+padding-right: 30px;
+}
+/*Main heading of the page*/
+h3{
+text-align: center;
+padding-top: 100px;
+font-family: Lucida Handwriting;
+font-size: 80px;
+color: #484848;
+}
+/*Each place heading and para*/
+h1{
+text-align:center;
+font-family: Georgia;
+}
+p{
+	font-size: 25px;
+font-family: Garamond;
+}
+
+/*footer section*/
+footer {
+text-align: right;
+font-size: 15px;
+}
+p2{
+font-size:15px;
+}
+.column1 {
+float: left;
+padding: 10px;
+height: 50px; 
+position: relative;
+background-color:#ddd;
+}
+.col1 {
+width: 40%;
+align-items: center;
+text-align: justify;
+}
+
+.col2 {
+width: 40%;
+align-items: center;
+text-align: justify;
+}
+.col3 {
+width: 20%;
+align-items: center;
+text-align: justify;
+}
